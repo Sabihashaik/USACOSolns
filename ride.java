@@ -1,5 +1,5 @@
 /*
-ID: katedri2
+ID: 
 LANG: JAVA
 TASK: ride
 */
@@ -17,8 +17,7 @@ class ride {
     else{
       out.println("STAY");
     }
-
-    out.close();                                  // close the output file
+    out.close();                                  
   }
 
 
@@ -27,7 +26,6 @@ class ride {
      for(int i=0;i<name.length();i++){
       int c=(name.charAt(i)- 64);
       val*=c;
-
      }
      return val;
   }
